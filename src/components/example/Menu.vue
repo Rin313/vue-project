@@ -7,11 +7,7 @@
       @select="handleSelect"
   >
     <el-menu-item index="0">
-      <img
-          style="width: 100px"
-          src="/public/logo.svg"
-          alt="Element logo"
-      />
+      <el-image style="height:100%;" src="/public/logo.svg" alt="Element logo"/>
     </el-menu-item>
     <div class="flex-grow" />
     <el-menu-item index="1">Processing Center</el-menu-item>
